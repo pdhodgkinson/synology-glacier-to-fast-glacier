@@ -1,4 +1,4 @@
-var dtfg = require('./lib/diskstationToFastGlacier'),
+var stfg = require('./lib/synologyToFastGlacier'),
     path = require('path');
 
 var sampleFastGlacierCache = './samples/f467a0d5-5e80-4022-ba85-b7f6ff444a08/' +
@@ -7,7 +7,7 @@ var sampleFastGlacierCache = './samples/f467a0d5-5e80-4022-ba85-b7f6ff444a08/' +
 
 
 
-dtfg(path.join(__dirname, sampleFastGlacierCache), path.join(__dirname, diskstationDb), {},
+stfg(path.join(__dirname, sampleFastGlacierCache), path.join(__dirname, diskstationDb), {},
     function(err) {
         'use strict';
         if (err) {

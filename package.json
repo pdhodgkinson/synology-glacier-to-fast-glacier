@@ -1,8 +1,8 @@
 {
   "name": "synology-glacier-to-fast-glacier",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Download your Synology Glacier archives in Fast Glacier",
-  "main": "index.js",
+  "main": "run.js",
   "directories": {
     "test": "test"
   },
@@ -29,7 +29,6 @@
     "moment": "^2.6.0",
     "q": "^1.0.1",
     "sqlite3": "^2.2.2",
-    "underscore": "^1.7.0",
-    "winston": "^0.7.3"
+    "underscore": "^1.7.0"
   }
 }
