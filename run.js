@@ -1,6 +1,5 @@
 var stfg = require('./lib/synologyToFastGlacier'),
     argv = require('minimist')(process.argv.slice(2)),
-    path = require('path'),
     _ = require('underscore'),
     vaultArg = 'vault',
     dbArg = 'db',
@@ -37,7 +36,7 @@ stfg(fastGlacierCache, diskstationDb, { out: outputFile },
     }).then(function () {
         'use strict';
         console.log('Finished successfully');
-        console.log('New FastGlacier Vault Archive located at: ' + outputFile)
+        console.log('New FastGlacier Vault Archive located at: ' + outputFile);
     }, function (err) {
         'use strict';
         if (err) {
