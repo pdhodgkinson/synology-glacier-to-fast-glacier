@@ -1,12 +1,14 @@
 synology-glacier-to-fast-glacier
 ================================
 
+### *** THIS PROJECT IS NO LONGER RELEVANT. THE LATEST VERSIONS OF SYNOLOGY GLACIER ALLOW FOR BROWSING AND DOWNLOADING INDIVIDUAL FILES ON AMAZON GLACIER. COOL! ***
+
 Download your Synology Glacier archives in Fast Glacier.
 
 * The Synology DiskStation Glacier app only allows you to download an *ENTIRE* Glaicer vault if you 
 want to do recover files. That's lame!
 * [FastGlacier] (http://fastglacier.com/) is a Windows application that allows you to download 
-individual files from FastGlacier.
+individual files from Amazon Glacier repositories.
 * This program converts the data that is stored in the DiskStation into a format that FastGlacier
  can read, thus allowing you to download individual files that were stored by the DiskStation 
  Glacier app.
